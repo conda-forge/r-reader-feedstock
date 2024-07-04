@@ -1,6 +1,5 @@
 {% set version = '1.0.6' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-reader
@@ -13,8 +12,7 @@ source:
   sha256: 905c7c5a1b035ac8213fc533fa26e511abfeea40bd22e3edfde42a49074e88f4
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  number: 4
   noarch: generic
   rpaths:
     - lib/R/lib/
