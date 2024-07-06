@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-reader-feedst
 
 Home: https://CRAN.R-project.org/package=reader
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Summary: A set of functions to simplify reading data from files. The main function, reader(), should read most common R datafile types without needing any parameters except the filename. Other functions provide simple ways of handling file paths and extensions, and automatically detecting file format and structure.
 
